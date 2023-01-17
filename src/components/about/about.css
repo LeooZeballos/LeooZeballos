@@ -36,9 +36,11 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  transition: var(--transition);
 }
 
 .about__card:hover {
+  transition: var(--transition);
   background: transparent;
   border-color: var(--color-primary-variant);
 }
@@ -54,8 +56,9 @@
 }
 
 .about__content p {
-  margin: 2rem 0 2.6rem;
-  color: var(--color-light)
+  margin: 2rem 0 2rem;
+  color: var(--color-light);
+  text-align: justify;
 }
 
 /* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */

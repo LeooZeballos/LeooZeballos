@@ -1,11 +1,14 @@
 import React from 'react'
 import ME from '../../assets/me-about.jpg';
 import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
 import { BsFolderFill } from 'react-icons/bs';
+import { BsFillCalendarEventFill } from 'react-icons/bs';
 import './about.css';
 
 const About = () => {
+  const age = new Date() - new Date(2000, 12, 9);
+  const ageInYears = Math.floor(age / 1000 / 60 / 60 / 24 / 365);
+
   return (
     <section id="about">
       <h5>Get to know</h5>
@@ -25,19 +28,19 @@ const About = () => {
               <small>A year working</small>
             </article>
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>Lots of 'em!</small>
+              <BsFillCalendarEventFill className="about__icon" />
+              <h5>Age</h5>
+              <small>{ageInYears} years old</small>
             </article>
             <article className="about__card">
               <BsFolderFill className="about__icon" />
               <h5>Projects</h5>
-              <small>At least 2</small>
+              <small>+5</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, expedita. At consequatur, iure ex dolore suscipit tempore id voluptate. Perspiciatis maiores ullam nostrum quia molestias omnis qui sequi rerum eligendi.
+            As a self-taught individual, I am deeply passionate about continuously learning new technologies and improving my skillset on a daily basis. My primary motivation is to face and overcome any challenges that may arise, with the ultimate goal of becoming a highly proficient software developer.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's talk</a>
