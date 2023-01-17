@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ImHome } from "react-icons/im";
 import { FaUserAlt } from "react-icons/fa";
 import { MdOutlineWork } from "react-icons/md";
@@ -9,8 +9,26 @@ import "./nav.css";
 const Nav = () => {
   const [active, setActive] = useState("#header");
 
+  const [hideNav, setHideNav] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY === 0) {
+        setHideNav(true);
+      } else {
+        setHideNav(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav>
+    <nav className={hideNav ? 'nav-hidden' : 'nav-visible'}>
       <a
         href="#header"
         className={active === "#header" ? "active" : ""}

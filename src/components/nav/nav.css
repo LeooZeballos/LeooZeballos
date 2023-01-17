@@ -33,3 +33,13 @@ nav a.active {
   background: var(--color-primary);
   color: var(--color-bg);
 }
+
+.nav-hidden {
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+.nav-visible {
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
