@@ -8,17 +8,20 @@ const Experience = () => {
     {tech: 'HTML', level: "Advanced"},
     {tech: 'CSS', level: "Intermediate"},
     {tech: 'JavaScript', level: "Advanced"},
-    {tech: 'React', level: "Intermediate"},
+    {tech: 'TypeScript', level: "Beginner"},
+    {tech: 'React.js', level: "Intermediate"},
     {tech: 'Bootstrap', level: "Beginner"},
   ]
 
   const backend = [
-    {tech: 'NodeJS', level: "90%"},
-    {tech: 'Express', level: "80%"},
-    {tech: 'MongoDB', level: "70%"},
-    {tech: 'MySQL', level: "60%"},
-    {tech: 'PHP', level: "50%"},
-  ]
+    {tech: 'Spring Boot', level: "Advanced"},
+    {tech: 'Java' , level: "Advanced"},
+    {tech: 'Docker' , level: "Intermediate"},
+    {tech: 'Python', level: "Intermediate"},
+    {tech: 'Linux', level: "Intermediate"},
+    {tech: 'Node.js', level: "Beginner"},
+    {tech: 'Apache Kafka', level: "Beginner"},
+]
 
   return (
     <section id="experience">
