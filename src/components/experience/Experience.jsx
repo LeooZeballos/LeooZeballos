@@ -20,7 +20,6 @@ const Experience = () => {
     {tech: 'Python', level: "Intermediate"},
     {tech: 'Linux', level: "Intermediate"},
     {tech: 'Node.js', level: "Beginner"},
-    {tech: 'Apache Kafka', level: "Beginner"},
 ]
 
   return (
