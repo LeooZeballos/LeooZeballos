@@ -5,27 +5,35 @@ import "./services.css";
 const Services = () => {
   const services = [
     {
-      title: "Web Development",
-      items: ["React", "JavaScript", "HTML5", "CSS3"],
+      title: "Software Development",
+      items: ["React", "Spring Boot"],
     },
     {
-      title: "API Development",
-      items: ["REST", "Spring Boot"],
+      title: "Database Management",
+      items: ["MySQL", "PostgreSQL", "SQL Server", "MongoDB"],
     },
     {
-      title: "Database",
-      items: ["MySQL", "PostgreSQL", "SQLite"],
-    },
-    {
-      title: "Server",
+      title: "Server Management",
       items: ["Linux", "Apache", "Node.js"],
     },
+    {
+      title: "DevOps",
+      items: ["Docker", "Kubernetes", "Jenkins", "Git"],
+    },
+    {
+      title: "Agile Development",
+      items: ["Scrum", "Kanban", "Jira"],
+    },
+    {
+      title: "Languages",
+      items: ["English", "Spanish"],
+    }
   ];
 
   return (
     <section id="services">
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>Additional skills</h5>
+      <h2>Core competencies</h2>
       <div className="container services__container">
         {services.map((service, index) => (
           <Service key={index} service={service} />
