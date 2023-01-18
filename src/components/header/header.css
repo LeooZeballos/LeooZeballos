@@ -1,5 +1,6 @@
 header {
   height: 100vh;
+  max-height: 900px;
   padding-top: 7rem;
   overflow: hidden;
 }
