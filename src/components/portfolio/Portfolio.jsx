@@ -13,12 +13,6 @@ import "./portfolio.css";
 const Portfolio = () => {
   const projects = [
     {
-      title: "🚗 Dealership App",
-      image: IMG1,
-      github: "https://github.com/Prog-Avanzada-4to/backend-concesionaria",
-      demo: "",
-    },
-    {
       title: "🍟 Fast Food App",
       image: IMG2,
       github: "https://github.com/LeooZeballos/fast-food-spring",
@@ -35,6 +29,12 @@ const Portfolio = () => {
       image: IMG4,
       github: "https://github.com/LeooZeballos/todo-app-reactjs",
       demo: "https://leoozeballos.github.io/todo-app-reactjs/",
+    },
+    {
+      title: "🚗 Dealership App",
+      image: IMG1,
+      github: "https://github.com/Prog-Avanzada-4to/backend-concesionaria",
+      demo: "",
     },
     {
       title: "✅ LeetCode Solutions",
