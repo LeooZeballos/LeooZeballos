@@ -11,28 +11,28 @@ import "./portfolio.css";
 const Portfolio = () => {
   const projects = [
     {
-      title: "Project 1",
+      title: "Dealership App",
       image: IMG1,
-      github: "https://google.com",
-      demo: "https://google.com",
+      github: "https://github.com/Prog-Avanzada-4to/backend-concesionaria",
+      demo: "",
     },
     {
-      title: "Project 2",
+      title: "🍟 Fast Food App",
       image: IMG2,
-      github: "https://google.com",
-      demo: "https://google.com",
+      github: "https://github.com/LeooZeballos/fast-food-spring",
+      demo: "https://fast-food-app.fly.dev/",
     },
     {
-      title: "Project 3",
+      title: "Movie Finder App",
       image: IMG3,
-      github: "https://google.com",
-      demo: "https://google.com",
+      github: "https://github.com/LeooZeballos/movie-mate",
+      demo: "https://leoozeballos.github.io/movie-mate/",
     },
     {
-      title: "Project 4",
+      title: "TaskIt App",
       image: IMG4,
-      github: "https://google.com",
-      demo: "https://google.com",
+      github: "https://github.com/LeooZeballos/todo-app-reactjs",
+      demo: "https://leoozeballos.github.io/todo-app-reactjs/",
     },
   ];
 
