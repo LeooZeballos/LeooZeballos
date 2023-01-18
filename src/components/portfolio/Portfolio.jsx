@@ -2,8 +2,10 @@ import React from "react";
 import Project from "./Project";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
+import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/portfolio4.jpg";
+import IMG5 from "../../assets/portfolio5.jpg";
+import IMG6 from "../../assets/portfolio6.jpg";
 
 import "./portfolio.css";
 
@@ -11,7 +13,7 @@ import "./portfolio.css";
 const Portfolio = () => {
   const projects = [
     {
-      title: "Dealership App",
+      title: "🚗 Dealership App",
       image: IMG1,
       github: "https://github.com/Prog-Avanzada-4to/backend-concesionaria",
       demo: "",
@@ -23,17 +25,29 @@ const Portfolio = () => {
       demo: "https://fast-food-app.fly.dev/",
     },
     {
-      title: "Movie Finder App",
+      title: "🎬 Movie Finder App",
       image: IMG3,
       github: "https://github.com/LeooZeballos/movie-mate",
       demo: "https://leoozeballos.github.io/movie-mate/",
     },
     {
-      title: "TaskIt App",
+      title: "📝 TaskIt App",
       image: IMG4,
       github: "https://github.com/LeooZeballos/todo-app-reactjs",
       demo: "https://leoozeballos.github.io/todo-app-reactjs/",
     },
+    {
+      title: "✅ LeetCode Solutions",
+      image: IMG5,
+      github: "https://github.com/LeooZeballos/leetcode-js",
+      demo: "",
+    },
+    {
+      title: "📚 Blog API Rest",
+      image: IMG6,
+      github: "https://github.com/LeooZeballos/api-rest-springboot",
+      demo: "",
+    }
   ];
 
   return (
