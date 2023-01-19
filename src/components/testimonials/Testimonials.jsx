@@ -1,8 +1,4 @@
 import React from "react";
-import AVTR1 from "../../assets/avatar1.jpg";
-import AVTR2 from "../../assets/avatar2.jpg";
-import AVTR3 from "../../assets/avatar3.jpg";
-import AVTR4 from "../../assets/avatar4.jpg";
 import "./testimonials.css";
 
 // import Swiper core and required modules
@@ -17,25 +13,25 @@ const Testimonials = () => {
   const testimonials = [
     {
       client_name: "Jane Doe",
-      client_avatar: AVTR1,
+      client_avatar: "",
       client_review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
     },
     {
       client_name: "Alex Smith",
-      client_avatar: AVTR2,
+      client_avatar: "",
       client_review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
     },
     {
       client_name: "Robert Taylor",
-      client_avatar: AVTR3,
+      client_avatar: "",
       client_review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
     },
     {
       client_name: "Samantha Smith",
-      client_avatar: AVTR4,
+      client_avatar: "",
       client_review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
     },
