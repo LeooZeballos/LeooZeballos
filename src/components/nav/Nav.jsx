@@ -9,7 +9,7 @@ import "./nav.css";
 const Nav = () => {
   const [active, setActive] = useState("#header");
 
-  const [hideNav, setHideNav] = useState(false);
+  const [hideNav, setHideNav] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {

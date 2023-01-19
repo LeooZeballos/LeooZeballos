@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
-import { BsWhatsapp, BsLinkedin } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 import "./contact.css";
@@ -18,12 +18,6 @@ const Contact = () => {
       title: "Linkedin",
       content: "Leonel Ayrton Zeballos",
       link: "https://www.linkedin.com/in/leonelayrtonzeballos/",
-    },
-    {
-      icon: BsWhatsapp,
-      title: "Whatsapp",
-      content: "+54 9 353 417-1360",
-      link: "https://wa.me/543534171360",
     },
   ];
 

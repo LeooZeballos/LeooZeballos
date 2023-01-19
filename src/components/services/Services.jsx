@@ -18,7 +18,7 @@ const Services = () => {
     },
     {
       title: "DevOps",
-      items: ["Docker", "Kubernetes", "Jenkins", "Git"],
+      items: ["Docker", "Git"],
     },
     {
       title: "Agile Development",
