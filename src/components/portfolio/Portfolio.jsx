@@ -4,8 +4,6 @@ import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.jpg";
-import IMG6 from "../../assets/portfolio6.jpg";
 
 import "./portfolio.css";
 
@@ -38,13 +36,13 @@ const Portfolio = () => {
     },
     {
       title: "✅ LeetCode Solutions",
-      image: IMG5,
+      image: "https://live.staticflickr.com/65535/52636750537_65e2887c68_b.jpg",
       github: "https://github.com/LeooZeballos/leetcode-js",
       demo: "",
     },
     {
       title: "📚 Blog API Rest",
-      image: IMG6,
+      image: "https://live.staticflickr.com/65535/52637520329_3d2388f776_b.jpg",
       github: "https://github.com/LeooZeballos/api-rest-springboot",
       demo: "",
     }
