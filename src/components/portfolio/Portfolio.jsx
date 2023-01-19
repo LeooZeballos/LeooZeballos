@@ -1,9 +1,5 @@
 import React from "react";
 import Project from "./Project";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.png";
-import IMG4 from "../../assets/portfolio4.jpg";
 
 import "./portfolio.css";
 
@@ -12,25 +8,25 @@ const Portfolio = () => {
   const projects = [
     {
       title: "🍟 Fast Food App",
-      image: IMG2,
+      image: "https://live.staticflickr.com/65535/52637743218_656038ffa5_c.jpg",
       github: "https://github.com/LeooZeballos/fast-food-spring",
       demo: "https://fast-food-app.fly.dev/",
     },
     {
       title: "🎬 Movie Finder App",
-      image: IMG3,
+      image: "https://live.staticflickr.com/65535/52637520404_e5c0e7f189_h.jpg",
       github: "https://github.com/LeooZeballos/movie-mate",
       demo: "https://leoozeballos.github.io/movie-mate/",
     },
     {
       title: "📝 TaskIt App",
-      image: IMG4,
+      image: "https://live.staticflickr.com/65535/52637520369_41f39ce2f0_z.jpg",
       github: "https://github.com/LeooZeballos/todo-app-reactjs",
       demo: "https://leoozeballos.github.io/todo-app-reactjs/",
     },
     {
       title: "🚗 Dealership App",
-      image: IMG1,
+      image: "https://live.staticflickr.com/65535/52636750507_a48d0a6d0d_c.jpg",
       github: "https://github.com/Prog-Avanzada-4to/backend-concesionaria",
       demo: "",
     },
