@@ -36,7 +36,8 @@ nav a.active {
 
 .nav-hidden {
   opacity: 0;
-  transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out, z-index 0s .3s;
+  z-index: -1;
 }
 
 .nav-visible {
