@@ -12,7 +12,15 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-
+      
+    - name: Set Git identity
+      run: |
+        git config --global user.name "$GIT_USERNAME"
+        git config --global user.email "$GIT_EMAIL"
+      env:
+        GIT_USERNAME: ${{ secrets.USERNAME }}
+        GIT_EMAIL: ${{ secrets.EMAIL }}
+        
     - name: Deploy
       run: npm ci && npm run deploy
       env:
