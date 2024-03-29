@@ -63,11 +63,3 @@
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
     </a>
 </p>
-
-## 🔗 Connect with me
-
-<p align="left">
-<a href="https://twitter.com/leoo_zeballos" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="leoo_zeballos" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/leonelayrtonzeballos/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="leonelayrtonzeballos" height="30" width="40" /></a>
-<a href="https://instagram.com/leoozeballos" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="leoo.zeballos" height="30" width="40" /></a>
-</p>
