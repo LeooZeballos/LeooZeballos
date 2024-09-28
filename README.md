@@ -1,11 +1,10 @@
-<h1 align="center">Helloo, I'm Leonel Zeballos</h1>
-<h3 align="center">A Software Developer from Argentina</h3>
+<h1 align="center">Hello, I'm Leonel!</h1>
+<h3 align="center">A Software Engineer from Argentina</h3>
 
 ## 🚀 About Me
 
-🎓 I'm currently Pursuing my Bachelor in **Information Systems Engineering**. Also, I'm currently a **Backend Developer** at [**@TechForb**](https://techforb.com/).
-
-👨‍💻 As a passionate Backend Developer, I am dedicated to delivering exceptional backend solutions, driving efficiency, and contributing to the success of our team. I'm always eager to connect with like-minded professionals and explore new opportunities. Please feel free to reach out to discuss potential collaborations or job opportunities.
+🎓 Information Systems Engineer. I'm currently a Backend Developer [**@TechForb**](https://techforb.com/).
+👨‍💻 As a Backend Developer, I am dedicated to deliver exceptional backend solutions, drive efficiency and contribute to the success of our team.
 
 ## 🛠️ Skills
 
